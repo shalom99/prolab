@@ -19,7 +19,10 @@ module.exports = {
         'person1': "url('/gallery/person1.jpg')",
         'person2': "url('/gallery/person2.jpg')",
         'person3': "url('/gallery/person3.jpg')",
-        
+        'carehealth': "url('/hmo/carehealth.png')",
+        'getwell': "url('/hmo/getwell.png')",
+        'inlife': "url('/hmo/inlife.webp')",
+        'wellcare': "url('/hmo/wellcare.png')",        
       },
       colors: {
         'primarybg': '#e2dfd8',

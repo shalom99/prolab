@@ -32,23 +32,25 @@ export default function Landing_services() {
 
   const servicesItem = [
     {
-      icon: "flask",
-      title: "CHEMISTRY",
+      icon: "ultrasound3",
+      title: "ULTRASOUND",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, at magnam. Qui ratione tenetur, accusamus velit et quia doloremque nam.",
-      lightbg: "bg-blue-200",
-      darkbg: "group-hover:bg-blue-700",
+      lightbg: "bg-pink-200",
+      darkbg: "group-hover:bg-pink-700",
       scale: "group-hover:scale-125",
     },
+    
     {
-      icon: "injection",
-      title: "HEMATOLOGY",
+      icon: "lab_micro",
+      title: "CLINICAL MICROSCOPY",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, at magnam. Qui ratione tenetur, accusamus velit et quia doloremque nam.",
-      lightbg: "bg-red-200",
-      darkbg: "group-hover:bg-red-700",
+      lightbg: "bg-violet-200",
+      darkbg: "group-hover:bg-violet-700",
       scale: "group-hover:scale-125",
     },
+ 
     {
       icon: "bacteriology",
       title: "BACTERIOLOGY",
@@ -67,13 +69,14 @@ export default function Landing_services() {
       darkbg: "group-hover:bg-orange-700",
       scale: "group-hover:scale-125",
     },
+
     {
-      icon: "lab_micro",
-      title: "CLINICAL MICROSCOPY",
+      icon: "injection",
+      title: "HEMATOLOGY",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, at magnam. Qui ratione tenetur, accusamus velit et quia doloremque nam.",
-      lightbg: "bg-violet-200",
-      darkbg: "group-hover:bg-violet-700",
+      lightbg: "bg-red-200",
+      darkbg: "group-hover:bg-red-700",
       scale: "group-hover:scale-125",
     },
     {
@@ -86,14 +89,15 @@ export default function Landing_services() {
       scale: "group-hover:scale-125",
     },
     {
-      icon: "ultrasound3",
-      title: "ULTRASOUND",
+      icon: "flask",
+      title: "CHEMISTRY",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, at magnam. Qui ratione tenetur, accusamus velit et quia doloremque nam.",
-      lightbg: "bg-pink-200",
-      darkbg: "group-hover:bg-pink-700",
+      lightbg: "bg-blue-200",
+      darkbg: "group-hover:bg-blue-700",
       scale: "group-hover:scale-125",
     },
+ 
   ];
   return (
     <div className="w-full h-auto lg:pl-[20%] pt-[50px] lg:pt-[100px] px-[10px]  bg-primarybg ">
