@@ -35,7 +35,7 @@ export default function Footer() {
         </div>
         </div>
         <div>
-          <h2 className="mb-5 font-semibold text-2xl">Contact info</h2>
+          <h2 className="mb-5 font-semibold text-2xl">Contact Info</h2>
 
           <p className="mb-2">
             2nd Floor, MST Bldg., McArthur Highway, Paligui, Apalit, Pampanga,

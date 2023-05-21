@@ -26,7 +26,7 @@ export default function Testimonial_Card() {
 
   }, [])
   return (
-    <div className="lg:w-[80%] xl:w-[60%] mx-auto px-2">
+    <div className="xl:w-[80%] 2xl:w-[60%] mx-auto px-2">
       <Swiper
       
         // install Swiper modules

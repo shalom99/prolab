@@ -13,7 +13,7 @@ export default function Hero() {
         {/* left */}
         <div className="md:w-[70%] h-full md:pl-[10%] flex flex-col justify-center gap-2 md:gap-3">
           <p className="text-center text-xl md:text-start font-bold text-accent">WELCOME TO PRO-LAB</p>
-          <h2 className="text-center text-3xl font-bold lg:text-start lg:text-7xl lg:w-[700px]">Accurate results for healthier lives</h2>
+          <h2 className="text-center text-3xl font-bold md:text-start lg:text-5xl xl:text-6xl 2xl:text-7xl lg:w-[700px]">Accurate results for healthier lives</h2>
           <h3 className="lg:w-[600px] text-slate-600 text-center lg:text-start">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
             nesciunt numquam maiores accusantium sunt ab.
