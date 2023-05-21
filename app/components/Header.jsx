@@ -51,7 +51,7 @@ export default function Header() {
     
 
       {/* desktop menu */}
-      <div className="hidden lg:flex lg:w-[100%] py-3 px-5 items-center justify-between bg-primary opacity-75 mx-auto z-10  ">
+      <div className="hidden fixed lg:flex lg:w-[100%] py-3 px-5 items-center justify-between shadow-md mx-auto z-10  ">
         <div>
           <Link href="/" className="flex items-center gap-2">
             <Image src="/logo_only.png" width={60} height={60} alt="Logo"/>
