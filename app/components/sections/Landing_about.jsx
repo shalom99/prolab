@@ -3,14 +3,14 @@ import { BsCheckLg } from "react-icons/bs";
 
 export default function Landing_about() {
   return (
-    <div className="px-2 lg:px-[10%] lg:h-screen  flex flex-col lg:flex-row gap-10 pb-10">
+    <div className="px-2 md:px-[10%] md:h-screen  flex flex-col md:flex-row gap-10 pb-10">
 
       {/* left */}
       <div className="w-full lg:w-[40%] h-[437px] lg:h-[90%] mx-auto bg-person2 bg-cover bg-center rounded-b-full">
         
       </div>
       {/* right */}
-      <div className="lg:w-[50%] flex flex-col justify-center">
+      <div className="lg:w-[50%] flex flex-col justify-center gap-3">
         <h2 className="font-bold text-accent">  ABOUT US</h2>
         <h3 className="2xl:text-6xl text-4xl font-bold">Best Laboratory For Testing And Research</h3>
         <p className="font-semibold text-lg">

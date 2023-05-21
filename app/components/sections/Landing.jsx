@@ -7,12 +7,12 @@ import { BsAward } from "react-icons/bs";
 
 export default function Hero() {
   return (
-    <div className="flex justify-start w-full lg:h-screen pt-20 lg:pt-0 px-2 text-primarytext">
+    <div className="flex justify-start w-full h-screen lg:h-screen pt-20 lg:pt-0 px-2 text-primarytext">
       <div className="lg:flex w-full">
 
         {/* left */}
-        <div className="lg:w-[70%] h-full lg:pl-[10%] flex flex-col justify-center lg:gap-3">
-          <p className="text-center lg:text-start font-bold text-accent">WELCOME TO PRO-LAB</p>
+        <div className="md:w-[70%] h-full md:pl-[10%] flex flex-col justify-center gap-2 md:gap-3">
+          <p className="text-center text-xl md:text-start font-bold text-accent">WELCOME TO PRO-LAB</p>
           <h2 className="text-center text-3xl font-bold lg:text-start lg:text-7xl lg:w-[700px]">Accurate results for healthier lives</h2>
           <h3 className="lg:w-[600px] text-slate-600 text-center lg:text-start">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
@@ -27,7 +27,7 @@ export default function Hero() {
             </Link>
           </div>
 
-          <div className="flex flex-col lg:flex-row lg:items-start items-center gap-10">
+          <div className="flex flex-col lg:flex-row lg:items-start items-center gap-5 lg:gap-10">
             <div className="w-full flex items-center gap-5 lg:max-w-[223px] p-5 border rounded-lg border-gray-200 group hover:border-blue-700 duration-1000">
               <div className="">
                 <RiUserStarLine
