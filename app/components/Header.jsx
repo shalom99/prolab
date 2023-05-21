@@ -36,8 +36,8 @@ export default function Header() {
           <Link href="/services" onClick={() => setNavbarOpen(false)} className="border-b pb-5 font-semibold">
             Services
           </Link>
-          <Link href="/" className="border-b pb-5 font-semibold" onClick={() => setNavbarOpen(false)}>
-            Online Appointment
+          <Link href="/plas" className="border-b pb-5 font-semibold" onClick={() => setNavbarOpen(false)}>
+            Online Results
           </Link>
 
           <Link href="/" className="border-b pb-5 font-semibold" onClick={() => setNavbarOpen(false)}>
@@ -59,8 +59,9 @@ export default function Header() {
           </Link>
         </div>
         <nav className="flex gap-5 text-xl text-primarytext">
-          <Link href="/services" className="hover:text-accent duration-500">Services</Link>
-          <Link href="/development" className="hover:text-accent duration-500">Online Appointment</Link>
+          <Link href="/development" className="hover:text-accent duration-500">Services</Link>
+ 
+          <Link href="/plas" className="hover:text-accent duration-500">Online Results</Link>
 
           <Link href="/about" className="hover:text-accent duration-500">About Us</Link>
           <Link href="/contact" className="hover:text-accent duration-500">Contact</Link>
