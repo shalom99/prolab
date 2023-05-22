@@ -18,7 +18,7 @@ export default function page() {
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere vel ipsa necessitatibus impedit recusandae eveniet repudiandae commodi veritatis dicta voluptatum!
             </p>
-            <button className='text-lg md:w-[300px] rounded-md my-5 py-2 text-white bg-darkerbg'>LOGIN</button>
+            <button disabled className='text-lg md:w-[300px] rounded-md my-5 py-2 text-white bg-darkerbg'>LOGIN</button>
           </form>
           <div>
             <h3 className='font-bold text-lg'>How to change your password?</h3>
