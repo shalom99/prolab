@@ -7,7 +7,7 @@ import Landing_about from './components/sections/Landing_about'
 import Landing_services from './components/sections/Landing_services'
 import Testimonials from './components/sections/Testimonials'
 import Clinic_gallery from './components/sections/Clinic_gallery'
-
+import UnderConstruction from './components/UnderConstruction'
 import Accredited from './components/sections/Accredited'
 
 export default function Home() {

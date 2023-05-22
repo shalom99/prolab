@@ -4,23 +4,16 @@ import Link from "next/link";
 import { RiUserStarLine } from "react-icons/ri";
 import { GiOnTarget } from "react-icons/gi";
 import { BsAward } from "react-icons/bs";
-import { Fade, Slide } from "react-awesome-reveal";
 
 export default function Hero() {
   return (
-    <div className="flex justify-start w-full h-screen lg:h-screen md:pt-20 lg:pt-0 px-2 text-primarytext">
+    <div className="flex justify-start w-full h-screen lg:h-screen pt-20 lg:pt-0 px-2 text-primarytext">
       <div className="lg:flex w-full">
 
         {/* left */}
         <div className="md:w-[70%] h-full md:pl-[10%] flex flex-col justify-center gap-2 md:gap-3">
-          <Slide duration={1500} triggerOnce>
           <p className="text-center text-xl md:text-start font-bold text-accent">WELCOME TO PRO-LAB</p>
-          </Slide>
-          <h2 className="text-center text-3xl font-bold md:text-start lg:text-5xl xl:text-6xl 2xl:text-7xl lg:w-[700px]">
-            <Fade duration={1500} triggerOnce>
-            Accurate results for healthier lives
-            </Fade>
-            </h2>
+          <h2 className="text-center text-3xl font-bold md:text-start lg:text-5xl xl:text-6xl 2xl:text-7xl lg:w-[700px]">Accurate results for healthier lives</h2>
           <h3 className="lg:w-[600px] text-slate-600 text-center lg:text-start">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
             nesciunt numquam maiores accusantium sunt ab.
@@ -30,14 +23,11 @@ export default function Hero() {
               APPOINTMENT
             </Link>
             <Link href="/" className="grow lg:grow-0 lg:px-5 text-center text-sm font-bold bg-primarybg text-primarytext py-4 rounded-lg hover:bg-darkerbg hover:text-white duration-500">
-              ONLINE RESULTS
+              ABOUT US
             </Link>
           </div>
 
           <div className="flex flex-col lg:flex-row lg:items-start items-center gap-5 lg:gap-10">
-            <Fade triggerOnce damping={0.8} cascade>
-
-           
             <div className="w-full flex items-center gap-5 lg:max-w-[223px] p-5 border rounded-lg border-gray-200 group hover:border-blue-700 duration-1000">
               <div className="">
                 <RiUserStarLine
@@ -67,7 +57,7 @@ export default function Hero() {
               </div>
               <h3>100% Quality Laboratory service</h3>
             </div>
-            </Fade>
+
           
           </div>
         </div>
