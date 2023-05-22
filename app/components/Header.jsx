@@ -33,17 +33,17 @@ export default function Header() {
           <BiX size={50}  onClick={() => setNavbarOpen(false)} />
         </div>
         <nav className="flex flex-col pl-10 pr-5 pt-10 gap-10">
-          <Link href="/services" onClick={() => setNavbarOpen(false)} className="border-b pb-5 font-semibold">
+          <Link href="/development" onClick={() => setNavbarOpen(false)} className="border-b pb-5 font-semibold">
             Services
           </Link>
           <Link href="/plas" className="border-b pb-5 font-semibold" onClick={() => setNavbarOpen(false)}>
             Online Results
           </Link>
 
-          <Link href="/" className="border-b pb-5 font-semibold" onClick={() => setNavbarOpen(false)}>
+          <Link href="/development" className="border-b pb-5 font-semibold" onClick={() => setNavbarOpen(false)}>
             About Us
           </Link>
-          <Link href="/" className="border-b pb-5 font-semibold" onClick={() => setNavbarOpen(false)}>
+          <Link href="/development" className="border-b pb-5 font-semibold" onClick={() => setNavbarOpen(false)}>
             Contact
           </Link>
         </nav>
@@ -63,8 +63,8 @@ export default function Header() {
  
           <Link href="/plas" className="hover:text-accent duration-500">Online Results</Link>
 
-          <Link href="/about" className="hover:text-accent duration-500">About Us</Link>
-          <Link href="/contact" className="hover:text-accent duration-500">Contact</Link>
+          <Link href="/development" className="hover:text-accent duration-500">About Us</Link>
+          <Link href="/development" className="hover:text-accent duration-500">Contact</Link>
         </nav>
 
         <div className="flex items-center gap-5 text-primarytext bg-white rounded-lg p-3">
