@@ -12,7 +12,7 @@ export default function Landing_about() {
       {/* right */}
       <div className="lg:w-[50%] flex flex-col justify-center gap-3">
         <h2 className="font-bold text-accent">  ABOUT US</h2>
-        <h3 className="2xl:text-6xl text-4xl font-bold">Best Laboratory For Testing And Research</h3>
+        <h3 className="2xl:text-6xl text-4xl font-bold">Leading the Way in Diagnostic Excellence</h3>
         <p className="font-semibold text-lg">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
           dolorum blanditiis. Rem veniam impedit repellendus!

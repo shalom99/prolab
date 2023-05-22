@@ -34,7 +34,7 @@ export default function Testimonial_Card() {
         spaceBetween={30}
         slidesPerView={numCard}
        
-        
+      
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
       >
