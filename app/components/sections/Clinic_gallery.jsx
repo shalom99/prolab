@@ -45,7 +45,7 @@ export default function Clinic_gallery() {
           <div className=" flex justify-center">
             <img
               className="h-[505px] lg:h-[614px] grow object-cover object-center"
-              src="/gallery/lab1.jpg"
+              src="/gallery/lab1.webp"
               alt=""
             />
           </div>
@@ -54,7 +54,7 @@ export default function Clinic_gallery() {
           <div className=" flex justify-center">
             <img
               className="h-[505px] lg:h-[614px] grow object-cover object-center"
-              src="/gallery/lab2.jpg"
+              src="/gallery/lab2.webp"
               alt=""
             />
           </div>
@@ -63,7 +63,7 @@ export default function Clinic_gallery() {
           <div className=" flex justify-center">
             <img
               className="h-[505px] lg:h-[614px] grow object-cover object-center"
-              src="/gallery/lab3.jpg"
+              src="/gallery/lab3.webp"
               alt=""
             />
           </div>
@@ -72,7 +72,7 @@ export default function Clinic_gallery() {
           <div className=" flex justify-center">
             <img
               className="h-[505px] lg:h-[614px] grow object-cover object-center"
-              src="/gallery/person3.jpg"
+              src="/gallery/person3.webp"
               alt=""
             />
           </div>
@@ -81,7 +81,7 @@ export default function Clinic_gallery() {
           <div className=" flex justify-center">
             <img
               className="h-[505px] lg:h-[614px] grow object-cover object-center"
-              src="/landing2.jpg"
+              src="/landing2.webp"
               alt=""
             />
           </div>
@@ -90,7 +90,7 @@ export default function Clinic_gallery() {
           <div className=" flex justify-center">
             <img
               className="h-[505px] lg:h-[614px] grow object-cover object-center"
-              src="/landing3.jpg"
+              src="/landing3.webp"
               alt=""
             />
           </div>
@@ -99,20 +99,12 @@ export default function Clinic_gallery() {
           <div className=" flex justify-center">
             <img
               className="h-[505px] lg:h-[614px] grow object-cover object-center"
-              src="/landing1.jpg"
+              src="/landing1.webp"
               alt=""
             />
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className=" flex justify-center">
-            <img
-              className="h-[505px] lg:h-[614px] grow object-cover object-center"
-              src="/landing2.jpg"
-              alt=""
-            />
-          </div>
-        </SwiperSlide>
+ 
       </Swiper>
 
       <div className="flex justify-center mt-10">

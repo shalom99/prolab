@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-col gap-10">
           <div className="">
             <Link href="/" className="flex items-center gap-2">
-              <Image src="/logo_only.png" width={60} height={60} alt="Logo" />
+              <Image src="/logo_only.webp" width={60} height={60} alt="Logo" />
               <h1 className="text-3xl font-bold">PRO-LAB</h1>
             </Link>
           </div>

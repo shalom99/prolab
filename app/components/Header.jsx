@@ -16,7 +16,7 @@ export default function Header() {
       <div className="lg:hidden flex justify-between p-2 text-primarytext bg-primarybg ">
         <div>
           <Link href="/" className="flex items-center gap-2">
-            <Image src="/logo_only.png" width={60} height={60} alt="Logo" />
+            <Image src="/logo_only.webp" width={60} height={60} alt="Logo" />
             <h1 className="text-2xl text-primarytext font-bold">Pro-Lab</h1>
           </Link>
         </div>
@@ -54,7 +54,7 @@ export default function Header() {
       <div className="hidden lg:flex lg:w-[100%] py-3 px-5 items-center justify-between shadow-md mx-auto z-10 bg-primarybg">
         <div>
           <Link href="/" className="flex items-center gap-2">
-            <Image src="/logo_only.png" width={60} height={60} alt="Logo"/>
+            <Image src="/logo_only.webp" width={60} height={60} alt="Logo"/>
             <h1 className="text-4xl text-primarytext font-bold">Pro-Lab</h1>
           </Link>
         </div>
