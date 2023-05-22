@@ -4,19 +4,23 @@ import Link from "next/link";
 import { RiUserStarLine } from "react-icons/ri";
 import { GiOnTarget } from "react-icons/gi";
 import { BsAward } from "react-icons/bs";
-import { Fade } from "react-awesome-reveal";
+import { Fade, Slide } from "react-awesome-reveal";
 
 export default function Hero() {
   return (
-    <div className="flex justify-start w-full h-screen lg:h-screen pt-20 lg:pt-0 px-2 text-primarytext">
+    <div className="flex justify-start w-full h-screen lg:h-screen md:pt-20 lg:pt-0 px-2 text-primarytext">
       <div className="lg:flex w-full">
 
         {/* left */}
         <div className="md:w-[70%] h-full md:pl-[10%] flex flex-col justify-center gap-2 md:gap-3">
-          <Fade>
+          <Slide duration={1500} triggerOnce>
           <p className="text-center text-xl md:text-start font-bold text-accent">WELCOME TO PRO-LAB</p>
-          </Fade>
+          </Slide>
+          <Fade duration={1500} delay={500} triggerOnce>
+
+
           <h2 className="text-center text-3xl font-bold md:text-start lg:text-5xl xl:text-6xl 2xl:text-7xl lg:w-[700px]">Accurate results for healthier lives</h2>
+          </Fade>
           <h3 className="lg:w-[600px] text-slate-600 text-center lg:text-start">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
             nesciunt numquam maiores accusantium sunt ab.
