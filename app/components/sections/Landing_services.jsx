@@ -16,26 +16,14 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 export default function Landing_services() {
-  const [numCard, setNumCard] = useState(1)
-  const swiper = useSwiper();
-  useEffect(() => {
-    const screenWidth = window.innerWidth;
 
-    if (screenWidth > 400 && screenWidth < 1536){
-      setNumCard(3)
-    }else if(screenWidth > 1536){
-      setNumCard(4)
-    }else{
-      return
-    }
 
-  }, [])
 
   const servicesItem = servicesData;
 
 
   return (
-    <div className="w-full h-auto lg:pl-[20%] pt-[50px] lg:pt-[100px] px-[10px]  bg-primarybg ">
+    <div className="w-full h-auto xl:w-[80%] 2xl:w-[60%] pt-[50px] lg:pt-[100px] px-[10px]  bg-primarybg ">
       <div className="lg:flex lg:items-center lg:justify-between">
         <div>
           <h3 className="font-semibold mb-7 text-accent">OUR SERVICES</h3>
@@ -59,8 +47,15 @@ export default function Landing_services() {
           className="py-10 pr-20"
           // install Swiper modules
           modules={[Navigation, Pagination, Scrollbar, A11y]}
+          slidesPerView={1}
+          breakpoints={{
+            // when window width is >= 768px
+            768: {
+              slidesPerView: 3,
+            },
+          }}
+
           spaceBetween={30}
-          slidesPerView={numCard}
           navigation={{
             nextEl:".button-next-slide",
             prevEl: ".button-prev-slide"

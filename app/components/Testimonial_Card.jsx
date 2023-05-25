@@ -1,9 +1,6 @@
 "use client";
 // import Swiper core and required modules
-import { useEffect, useRef, useState } from "react";
-
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -13,26 +10,21 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 export default function Testimonial_Card() {
-  const [numCard, setNumCard] = useState(1)
-  useEffect(() => {
-    const screenWidth = window.innerWidth;
 
-    if (screenWidth > 400){
-      setNumCard(3)
-    }else{
-      return
-    }
-
-
-  }, [])
   return (
-    <div className="xl:w-[80%] 2xl:w-[60%] mx-auto px-2">
+    <div className="xl:w-[80%] 2xl:w-[60%] mx-auto px-2 bg-blue-300">
       <Swiper
       
         // install Swiper modules
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={30}
-        slidesPerView={numCard}
+        slidesPerView={1}
+        breakpoints={{
+          // when window width is >= 768px
+          768: {
+            slidesPerView: 3,
+          },
+        }}
        
         
         onSwiper={(swiper) => console.log(swiper)}

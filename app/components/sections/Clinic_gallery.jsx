@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 
@@ -15,18 +15,7 @@ import Link from "next/link";
 
 
 export default function Clinic_gallery() {
-  const [numCard, setNumCard] = useState(1)
-  useEffect(() => {
-    const screenWidth = window.innerWidth;
 
-    if (screenWidth > 400){
-      setNumCard(3)
-    }else{
-      return
-    }
-
-
-  }, [])
 
   return (
     <div className="bg-primarybg pb-[100px] pt-[100px] px-2">
@@ -37,7 +26,13 @@ export default function Clinic_gallery() {
         // install Swiper modules
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={5}
-        slidesPerView={numCard}
+        slidesPerView={1}
+        breakpoints={{
+          // when window width is >= 768px
+          768: {
+            slidesPerView: 3,
+          }
+        }}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
       >

@@ -16,7 +16,7 @@ export default function Hero() {
           <Slide duration={1500} triggerOnce>
           <p className="text-center text-xl md:text-start font-bold text-accent">WELCOME TO PRO-LAB</p>
           </Slide>
-          <Fade duration={1500} delay={500} triggerOnce>
+          <Fade duration={2500} delay={1000} triggerOnce>
 
 
           <h2 className="text-center text-3xl font-bold md:text-start lg:text-5xl xl:text-6xl 2xl:text-7xl lg:w-[700px]">Accurate results for healthier lives</h2>
@@ -35,6 +35,9 @@ export default function Hero() {
           </div>
 
           <div className="flex flex-col lg:flex-row lg:items-start items-center gap-5 lg:gap-10">
+            <Fade cascade delay={2500} damping={0.8}>
+
+           
             <div className="w-full flex items-center gap-5 lg:max-w-[223px] p-5 border rounded-lg border-gray-200 group hover:border-blue-700 duration-1000">
               <div className="">
                 <RiUserStarLine
@@ -65,7 +68,7 @@ export default function Hero() {
               <h3>100% Quality Laboratory service</h3>
             </div>
 
-          
+            </Fade>
           </div>
         </div>
 
